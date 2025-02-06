@@ -29,9 +29,10 @@ enum InputState {
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'code-input',
-  templateUrl: 'code-input.component.html',
-  styleUrls: ['./code-input.component.scss']
+  selector: "code-input",
+  standalone: true,
+  templateUrl: "code-input.component.html",
+  styleUrl: "./code-input.component.scss",
 })
 export class CodeInputComponent implements AfterViewInit, OnInit, OnChanges, OnDestroy, AfterViewChecked, CodeInputComponentConfig {
 
