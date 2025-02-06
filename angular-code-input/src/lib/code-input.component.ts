@@ -30,7 +30,6 @@ enum InputState {
 @Component({
   // tslint:disable-next-line:component-selector
   selector: "code-input",
-  standalone: true,
   templateUrl: "code-input.component.html",
   styleUrl: "./code-input.component.scss",
 })
